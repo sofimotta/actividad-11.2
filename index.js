@@ -6,8 +6,6 @@ document.getElementById("boton").addEventListener("click",(e) => {
         fecha: document.getElementById("fecha").value
     }
 
-    console.log(datos)
-
     const options = {
         method: 'POST',
         headers: {
